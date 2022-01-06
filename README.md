@@ -8,7 +8,7 @@ A simple react-native character counter app of 240 limit (20 shown in demo) that
   <br/>
   <br/>
   <br/>
-  **FOR MAC Users:**<br/>
+  **FOR MacOS Users:**<br/>
   Run the set of commands before running your project
   - `cd ios`
   - `pods install`
