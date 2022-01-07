@@ -11,7 +11,9 @@ const App = () => {
   const getCharacterCount = (text: string) => {
     setCharacterCount(text.length);
   };
+
   const remainingCharacters = CHARACTER_LIMIT - characterCount;
+
   const getColor = (remainingChars: number) => {
     if (remainingChars < 0) {
       return 'rgba(255, 0, 35,';
