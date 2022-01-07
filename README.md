@@ -14,3 +14,7 @@ A simple react-native character counter app of 240 limit (20 shown in demo) that
   - `pods install`
   - `cd ..`
   - `npx react-native run-ios`
+
+
+https://user-images.githubusercontent.com/34045191/148471496-f32ba0bb-5159-4696-9431-606531aca9bc.MP4
+
