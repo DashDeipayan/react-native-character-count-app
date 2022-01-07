@@ -53,6 +53,6 @@ const styles = StyleSheet.create({
   },
   textfield: {
     fontSize: 20,
-    color: '#717171',
+    color: '#090909',
   },
 });

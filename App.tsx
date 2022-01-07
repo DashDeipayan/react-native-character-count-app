@@ -3,7 +3,7 @@ import {StyleSheet, View} from 'react-native';
 import CounterText from './src/CounterText';
 import TextField from './src/TextField';
 
-const CHARACTER_LIMIT = 20;
+const CHARACTER_LIMIT = 240;
 
 const App = () => {
   const [characterCount, setCharacterCount] = useState(0);
