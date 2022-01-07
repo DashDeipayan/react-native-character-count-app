@@ -7,9 +7,10 @@ interface Props {
 }
 
 const CounterText: FC<Props> = ({remainingCharacters, counterTextColor}) => {
+  const counterTextColorFull: string = `${counterTextColor}1)`;
   return (
     <View style={styles.countertextview}>
-      <Text style={[styles.countertext, {color: counterTextColor}]}>
+      <Text style={[styles.countertext, {color: counterTextColorFull}]}>
         {remainingCharacters} Character remaining
       </Text>
     </View>

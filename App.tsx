@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import {StyleSheet, View, Dimensions} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import CounterText from './src/CounterText';
 import TextField from './src/TextField';
 
-const WINDOW_HEIGHT = Dimensions.get('window').height;
-const CHARACTER_LIMIT = 240;
+const CHARACTER_LIMIT = 20;
 
 const App = () => {
   const [characterCount, setCharacterCount] = useState(0);
@@ -15,11 +14,11 @@ const App = () => {
   const remainingCharacters = CHARACTER_LIMIT - characterCount;
   const getColor = (remainingChars: number) => {
     if (remainingChars < 0) {
-      return 'red';
+      return 'rgba(255, 0, 35,';
     } else if (remainingChars < 10) {
-      return '#D2BF00';
+      return 'rgba(210, 191, 0,';
     } else {
-      return '#717171';
+      return 'rgba(113, 113, 113,';
     }
   };
 
@@ -46,6 +45,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-start',
     width: '100%',
-    marginTop: WINDOW_HEIGHT * 0.1,
   },
 });
